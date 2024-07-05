@@ -1,0 +1,45 @@
+frontend
+│
+├── src
+│   ├── components
+│   │   ├── messages
+│   │   │   └── MessageContainer
+│   │   ├── sidebar
+│   │   │   └── Sidebar
+│   │   ├── skeleton
+│   │   │   └── MessageSkeleton
+│   │   └── GenderCheckbox
+│   │
+│   ├── context
+│   │   ├── AuthContextProvider
+│   │   ├── SocketContextProvider
+│   │   └── useAuthContext
+│   │   └── useSocketContext
+│   │
+│   ├── hooks
+│   │   ├── useGetConversations
+│   │   ├── useGetMessages
+│   │   ├── useListenMessages
+│   │   ├── useLogin
+│   │   ├── useLogout
+│   │   ├── useSendMessage
+│   │   └── useSignup
+│   │
+│   ├── pages
+│   │   ├── home
+│   │   │   └── Home
+│   │   ├── login
+│   │   │   └── Login
+│   │   └── signup
+│   │       └── SignUp
+│   │
+│   ├── utils
+│   │   ├── emojis
+│   │   └── extractTime
+│   │
+│   └── zustand
+│       └── useConversation
+│   
+├── App.jsx
+├── index.jsx
+└── ...
